@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-h1 {
-    color: red;
-}
+
 
 *{
+
     font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #4D41C0;
+    color: white;
+}
+
+html, body{
+    background-color: #ddd;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
